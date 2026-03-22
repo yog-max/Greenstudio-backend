@@ -40,3 +40,8 @@ Thumbs.db
 
 ### VS Code ###
 .vscode/
+
+# IDE files — remove these
+.settings/
+.classpath
+.project
