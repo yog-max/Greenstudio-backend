@@ -41,8 +41,8 @@ public class SecurityConfig {
         		"http://localhost:3000",
                 "http://localhost:5173",
                 "https://greenstudio-backend.onrender.com",
-                "https://*.netlify.app"		
-        		)); // ✅ fix
+                "https://green-studio-steel.vercel.app/"		
+        		)); // 
         config.setAllowedMethods(List.of(
             "GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"
         ));
@@ -51,7 +51,7 @@ public class SecurityConfig {
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", config);
-        return source; // ✅ no error
+        return source; 
     }
 
     @Bean
