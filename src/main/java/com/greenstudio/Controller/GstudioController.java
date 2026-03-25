@@ -29,7 +29,7 @@ import com.greenstudio.Service.GstudioServiceInterface;
 @CrossOrigin(origins = {
 	    "http://localhost:3000",
 	    "http://localhost:5173",
-	    "https://https://green-studio-steel.vercel.app"
+	    "https://green-studio-steel.vercel.app"
 	})
 @RestController()
 @RequestMapping("/user")
