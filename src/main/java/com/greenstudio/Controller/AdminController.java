@@ -18,7 +18,7 @@ import com.greenstudio.Service.AdminServiceInterface;
 @CrossOrigin(origins = {
 	    "http://localhost:3000",
 	    "http://localhost:5173",
-	    "https://greenstudio-frontend.netlify.app"
+	    "https://greenstudio-backend.onrender.com"
 	})
 @RequestMapping("/admin")
 public class AdminController 
