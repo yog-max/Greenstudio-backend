@@ -41,7 +41,7 @@ public class SecurityConfig {
         		"http://localhost:3000",
                 "http://localhost:5173",
                 "https://greenstudio-backend.onrender.com",
-                "https://green-studio-steel.vercel.app/"		
+                "https://green-studio-steel.vercel.app"		
         		)); // 
         config.setAllowedMethods(List.of(
             "GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"
