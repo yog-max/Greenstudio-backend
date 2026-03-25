@@ -18,7 +18,7 @@ import com.greenstudio.Service.AdminServiceInterface;
 @CrossOrigin(origins = {
 	    "http://localhost:3000",
 	    "http://localhost:5173",
-	    "https://greenstudio-backend.onrender.com"
+	    "https://green-studio-steel.vercel.app/"
 	})
 @RequestMapping("/admin")
 public class AdminController 
