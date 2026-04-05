@@ -41,7 +41,10 @@ Thumbs.db
 ### VS Code ###
 .vscode/
 
-# IDE files — remove these
+# IDE files 
 .settings/
 .classpath
 .project
+
+## Properties ##
+src/main/resources/application.properties

@@ -40,7 +40,7 @@ public class SecurityConfig {
         config.setAllowedOriginPatterns(List.of(
         		"http://localhost:3000",
                 "http://localhost:5173",
-                "",
+                "https://greenstudio-backend.onrender.com",
                 "https://*.netlify.app"		
         		)); // ✅ fix
         config.setAllowedMethods(List.of(
