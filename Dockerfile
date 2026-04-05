@@ -3,7 +3,9 @@ WORKDIR /app
 COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
 RUN ./mvnw dependency:resolve
+RUN chmod +x mvnw 
 COPY src ./src
 RUN ./mvnw clean package -DskipTests
 EXPOSE 8080
 CMD ["java", "-jar", "target/Green_Studio-0.0.1-SNAPSHOT.jar"]
+
