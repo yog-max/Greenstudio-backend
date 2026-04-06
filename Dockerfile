@@ -3,7 +3,6 @@ WORKDIR /app
 COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
 RUN sed -i 's/\r$//' mvnw && chmod +x mvnw
-RUN chmod +x mvnw
 RUN ./mvnw dependency:resolve -B
 COPY src ./src
 RUN ./mvnw clean package -DskipTests -B
